@@ -1,1 +1,8 @@
 
+wget https://git.io/vpn -O openvpn-install.sh
+sudo chmod +x openvpn-install.sh
+sudo ./openvpn-install.sh
+Make sure to allow on firewall.
+if you want to connect from outside of your LAN choose your public ip address for your openvpn server and google's dns.
+Then you need to port forward that in your router.
+Then upload the configfile of your client to the client machine.
